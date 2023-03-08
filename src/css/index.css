@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  text-transform: capitalize;
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 60vh;
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: block;
+}
+
+/*! header */
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #222;
+  padding: 10px 0;
+  z-index: 999;
+}
+
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .navbar .logo {
+  width: 50px;
+  border-radius: 50%;
+}
+
+nav .navbar .menu {
+  color: white;
+  display: flex;
+}
+
+nav .navbar .menu a {
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/*! main contain */
+main {
+  position: relative;
+  top: 50px;
+  padding: 10px 0;
+}
+
+/*? Hero Section */
+#home .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#home .hero h1 {
+  font-size: 4rem;
+}
+
+#home .hero h6 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+/*? Testimonials & Contact us */
+#callUs .callUs {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: start;
+}
+
+#callUs .callUs .testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+#callUs .callUs .testimonials .person-banner {
+  width: 600px;
+  border-radius: 1rem;
+  box-shadow: #2222227a 10px 10px 10px;
+}
+
+#callUs .callUs .testimonials .person-words {
+  font-style: italic;
+}
+
+#callUs .callUs .testimonials .card-person {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  width: 400px;
+  background-color: #333;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: #2222227a 10px 10px 10px;
+}
+#callUs .callUs .testimonials .card-person .person-profile {
+  width: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+#callUs .callUs .testimonials .card-person .about-person h1,
+p {
+  color: white;
+  text-align: center;
+}
+#callUs .callUs .features h1 {
+  margin-left: 40px;
+}
+#callUs .callUs .features ul li {
+  padding: 10px 0;
+  margin: 10px 0;
+}
+#callUs .callUs .features ul li span {
+  padding: 1% 15px;
+  background-color: #222;
+  border-radius: 50%;
+  margin-right: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  color: white;
+}
+
+#callUs .callUs .contactUs {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+#callUs .callUs .contactUs h1 {
+  font-size: 40px;
+  text-align: center;
+}
+#callUs .callUs .contactUs code {
+  font-size: 18px;
+}
+
+#callUs .callUs .contactUs form {
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+  padding: 40px;
+  margin: 40px 0;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  color: white;
+  box-shadow: #2222227a 10px 10px 10px;
+}
+#callUs .callUs .contactUs form input[type="text"],
+input[type="email"],
+select,
+option {
+  border: none;
+  height: 40px;
+  border-radius: 0.5em;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  -ms-border-radius: 0.5em;
+  -o-border-radius: 0.5em;
+  padding: 20px;
+  margin: 15px 0;
+}
+
+#callUs .callUs .contactUs form input[type="submit"] {
+  background-color: rgb(0, 168, 90);
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+#ourPackage .header {
+  font-size: 40px;
+  text-align: center;
+}
+
+#ourPackage .location {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+#ourPackage .location .card-location {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #333;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: #2222227a 10px 10px 10px;
+}
+
+#headline .headline {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 60px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#headline .headline h1 {
+  font-size: 40px;
+}
+
+#headline .headline h6 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#headline .headline a {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 400px;
+  height: 50px;
+  background-color: #333;
+  color: white;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  box-shadow: #2222227a 10px 10px 10px;
+}
+
+/*! footer */
+
+footer .footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer .logo {
+  width: 50px;
+  border-radius: 50%;
+}
+
+footer .footer .service {
+  display: flex;
+  gap: 20px;
+}
+
+footer .footer .service a {
+  color: black;
+}
+
+footer .footer .copy {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+}
+
+footer .footer .copy h6 {
+  font-weight: 400;
+  font-size: 16px;
+}
